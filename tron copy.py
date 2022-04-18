@@ -23,7 +23,7 @@ class CryptoPlotter:
         self.parameters = {'convert':'USD',}
 
         self.headers = {'Accepts': 'application/json',
-                    'X-CMC_PRO_API_KEY': '#####',}
+                    'X-CMC_PRO_API_KEY': '#####',} #replace with your CoinCapMarket API Key
 
         self.temp_database = SortedDict()
 
@@ -72,7 +72,7 @@ class CryptoPlotter:
 
         currency_button_dict = {}
 
-        CurrencyListURL = 'http://data.fixer.io/api/symbols?access_key=###############'
+        CurrencyListURL = 'http://data.fixer.io/api/symbols?access_key=###############' #replace with your CoinCapMarket API Key
 
         response = requests.get(CurrencyListURL)
 
