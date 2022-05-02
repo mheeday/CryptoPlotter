@@ -1,4 +1,4 @@
-#from curses import window
+
 from locale import currency
 from matplotlib.figure import Figure
 import requests
